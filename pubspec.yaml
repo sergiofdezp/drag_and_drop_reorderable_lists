@@ -1,6 +1,7 @@
 name: drag_and_drop_reorderable_lists
 description: "Customizable drag & drop widgets in lists with reordering."
 version: 0.1.0
+homepage: https://github.com/sergiofdezp/drag_and_drop_reorderable_lists
 
 environment:
   sdk: ^3.5.3
