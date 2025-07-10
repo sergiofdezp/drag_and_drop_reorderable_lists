@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// A widget that displays a list of items with drag-and-drop capabilities.
-/// 
+///
 /// This widget allows dragging items out and optionally accepting dropped items.
 /// You can customize the appearance and behavior with its properties.
 class CustomDragList extends StatelessWidget {
@@ -75,7 +75,8 @@ class CustomDragList extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: items.isEmpty
-                    ? (emptyPlaceholder ?? const Center(child: Text("No items")))
+                    ? (emptyPlaceholder ??
+                        const Center(child: Text("No items")))
                     : ListView.builder(
                         itemCount: items.length,
                         itemBuilder: (context, index) {

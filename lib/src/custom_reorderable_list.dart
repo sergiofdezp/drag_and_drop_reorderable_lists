@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// A widget that displays a list of items with drag-and-drop reordering support.
-/// 
+///
 /// This widget allows both adding items by dropping and reordering items inside the list.
 class CustomReorderableList extends StatefulWidget {
   /// Creates a [CustomReorderableList].
@@ -41,7 +41,8 @@ class CustomReorderableList extends StatefulWidget {
   /// Callback invoked when an item is dropped.
   ///
   /// Receives the dropped item and the insert index.
-  final void Function(Map<String, dynamic> data, int insertIndex)? onItemDropped;
+  final void Function(Map<String, dynamic> data, int insertIndex)?
+      onItemDropped;
 
   @override
   State<CustomReorderableList> createState() => _CustomReorderableListState();
@@ -111,7 +112,8 @@ class _CustomReorderableListState extends State<CustomReorderableList> {
                               return true;
                             },
                             onAcceptWithDetails: (details) {
-                              if (widget.enableDrop && widget.onItemDropped != null) {
+                              if (widget.enableDrop &&
+                                  widget.onItemDropped != null) {
                                 widget.onItemDropped!(details.data, index);
                               }
                               setState(() {
@@ -129,9 +131,10 @@ class _CustomReorderableListState extends State<CustomReorderableList> {
                                 curve: Curves.easeInOut,
                                 decoration: BoxDecoration(
                                   color: isHovered
-                                      ? Colors.grey.withOpacity(0.3)
+                                      ? Colors.grey.shade400
                                       : Colors.transparent,
-                                  border: _defineBorderPosition(isHovered: isHovered),
+                                  border: _defineBorderPosition(
+                                      isHovered: isHovered),
                                 ),
                                 child: ListTile(
                                   title: Text(item["name"]),
@@ -150,7 +153,8 @@ class _CustomReorderableListState extends State<CustomReorderableList> {
                                       color: widget.hoverColor,
                                       child: Text(
                                         item["name"],
-                                        style: const TextStyle(color: Colors.white),
+                                        style: const TextStyle(
+                                            color: Colors.white),
                                       ),
                                     ),
                                   ),

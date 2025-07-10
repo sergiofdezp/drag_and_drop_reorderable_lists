@@ -1,3 +1,7 @@
+## 0.1.4
+
+- Deleting the use of withopacity and formatting code.
+
 ## 0.1.3
 
 - Adding simple example.
