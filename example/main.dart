@@ -1,4 +1,4 @@
-import 'package:drag_and_drop_reorderable_lists/drag_drop_lists.dart';
+import 'package:drag_and_drop_reorderable_lists/drag_and_drop_reorderable_lists.dart';
 import 'package:flutter/material.dart';
 
 void main() {
