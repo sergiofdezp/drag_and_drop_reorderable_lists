@@ -1,7 +1,9 @@
 name: drag_and_drop_reorderable_lists
 description: "Customizable drag & drop widgets in lists with reordering."
-version: 0.1.0
+version: 0.1.2
 homepage: https://github.com/sergiofdezp/drag_and_drop_reorderable_lists
+repository: https://github.com/sergiofdezp/drag_and_drop_reorderable_lists
+issue_tracker: https://github.com/sergiofdezp/drag_and_drop_reorderable_lists/issues
 
 environment:
   sdk: ^3.5.3
@@ -9,6 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  drag_and_drop_reorderable_lists: ^<latest_version>
 
 dev_dependencies:
   flutter_test:
