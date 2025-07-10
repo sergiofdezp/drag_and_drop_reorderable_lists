@@ -11,7 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  drag_and_drop_reorderable_lists: ^<latest_version>
 
 dev_dependencies:
   flutter_test:
