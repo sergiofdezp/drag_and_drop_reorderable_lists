@@ -28,7 +28,7 @@ Un paquete Flutter que ofrece listas personalizables con arrastrar y soltar, inc
 
 ## 🔹 Examples / Ejemplos
 
-| ![drop](https://github.com/user-attachments/assets/351e8410-15c5-4a8e-86f8-5ed11c1e8305) | ![reorder](https://github.com/user-attachments/assets/a78680bb-45ce-4fc2-9088-88f4c4e314ec) |
+| ![drag](https://github.com/user-attachments/assets/c3074b58-6d2b-42d3-8b07-2eb33b1aedec) | ![reorder](https://github.com/user-attachments/assets/7b2e2684-19fc-4958-8280-062a0248ce84) |
 |-----------------------------|-----------------------------|
 | **Drag from List 1**        | **Reorder in List 2**      |
 | **Drag desde la lista 1**   | **Reordenamiento en la lista 2**      |
